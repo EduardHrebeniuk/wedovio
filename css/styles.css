@@ -34,6 +34,12 @@ img {
   height: auto;
 }
 
+body {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+}
+
 .list {
   list-style: none;
 }
@@ -50,16 +56,20 @@ img {
   /* outline: 2px solid red; */
 }
 
+body {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+}
 
 
 /* --------------------Section Deation...start---------------- */
-.deation {
-  position: relative;
-}
+.deation {}
 
 .deation-container {
+  position: relative;
   padding-bottom: 322px;
-  }
+}
 
 .deation-line {
   width: 1110px;
@@ -71,12 +81,9 @@ img {
 
 .deation-title {
   max-width: 607px;
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.28;
-
   color: #4D533C;
   margin-bottom: 87px;
 }
@@ -85,7 +92,6 @@ img {
   height: max-content;
   display: flex;
   gap: 30px;
-
 }
 
 .deation-list-item {
@@ -94,44 +100,30 @@ img {
   justify-content: space-between;
   padding: 27px 30px;
   width: calc((100%-90px)/4);
-
-
 }
 
 
-
 .deation-item-title {
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 1.42;
   text-transform: uppercase;
-
   color: #4D533C;
   margin-bottom: 20px;
 }
 
 .deation-item-text {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.86;
-
   color: rgba(33, 56, 66, 0.6);
   margin-bottom: 30px;
 }
 
 .deation-link {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.12;
   text-decoration-line: underline;
   color: #D4D6D4;
-
 }
 
 .deation-link:hover,
@@ -142,7 +134,7 @@ img {
 .call {
   position: absolute;
   bottom: -172px;
-  left: 0;
+  left: -167px;
   transform: translateY(-50% 0);
   width: 1275px;
   height: 362px;
@@ -156,24 +148,17 @@ img {
 
 .call-text {
   max-width: 822px;
-  font-family: 'Poppins';
-  font-style: normal;
   font-weight: 700;
   font-size: 60px;
   line-height: 1.23;
-
   color: #4D533C;
   margin-bottom: 50px;
 }
 
 .call-link {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.12;
   text-decoration-line: underline;
-
   color: #D4D6D4;
 
 }
