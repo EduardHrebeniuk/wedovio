@@ -53,13 +53,12 @@ img {
 
 
 /* --------------------Section Deation...start---------------- */
-.deation {
-  position: relative;
-}
+
 
 .deation-container {
+  position: relative;
   padding-bottom: 322px;
-  }
+}
 
 .deation-line {
   width: 1110px;
@@ -94,11 +93,7 @@ img {
   justify-content: space-between;
   padding: 27px 30px;
   width: calc((100%-90px)/4);
-
-
 }
-
-
 
 .deation-item-title {
   font-family: 'Poppins';
@@ -142,7 +137,7 @@ img {
 .call {
   position: absolute;
   bottom: -172px;
-  left: 0;
+  left: -167px;
   transform: translateY(-50% 0);
   width: 1275px;
   height: 362px;
