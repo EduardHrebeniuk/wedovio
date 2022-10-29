@@ -3,7 +3,6 @@
 *::after {
   box-sizing: border-box;
 }
-
 p,
 h1,
 h2,
@@ -13,41 +12,28 @@ h5,
 h6 {
   margin: 0;
 }
-
 ul,
 ol {
   margin: 0;
   padding-left: 0;
 }
-
 button {
   cursor: pointer;
 }
-
 address {
   font-style: normal;
 }
-
 img {
   display: block;
   max-width: 100%;
   height: auto;
 }
-
-body {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-}
-
 .list {
-  list-style: none;
+list-style: none;
 }
-
 .link {
-  text-decoration: none;
+text-decoration: none;
 }
-
 .container {
   width: 1140px;
   padding-left: 15px;
@@ -55,117 +41,3 @@ body {
   margin: 0 auto;
   /* outline: 2px solid red; */
 }
-
-body {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-}
-
-
-/* --------------------Section Deation...start---------------- */
-.deation {}
-
-.deation-container {
-  position: relative;
-  padding-bottom: 322px;
-}
-
-.deation-line {
-  width: 1110px;
-  height: 1px;
-  background: rgba(33, 56, 66, 0.0955529);
-  margin: 0 auto;
-  margin-bottom: 149px;
-}
-
-.deation-title {
-  max-width: 607px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.28;
-  color: #4D533C;
-  margin-bottom: 87px;
-}
-
-.deation-list {
-  height: max-content;
-  display: flex;
-  gap: 30px;
-}
-
-.deation-list-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 27px 30px;
-  width: calc((100%-90px)/4);
-}
-
-
-.deation-item-title {
-  font-weight: 500;
-  font-size: 24px;
-  line-height: 1.42;
-  text-transform: uppercase;
-  color: #4D533C;
-  margin-bottom: 20px;
-}
-
-.deation-item-text {
-  font-size: 14px;
-  line-height: 1.86;
-  color: rgba(33, 56, 66, 0.6);
-  margin-bottom: 30px;
-}
-
-.deation-link {
-  font-size: 16px;
-  line-height: 1.12;
-  text-decoration-line: underline;
-  color: #D4D6D4;
-}
-
-.deation-link:hover,
-.deation-link:focus {
-  color: #FFD723;
-}
-
-.call {
-  position: absolute;
-  bottom: -172px;
-  left: -167px;
-  transform: translateY(-50% 0);
-  width: 1275px;
-  height: 362px;
-  padding-top: 70px;
-  padding-left: 165px;
-  padding-right: 289px;
-  padding-bottom: 70px;
-  background: #FAFAFA;
-  box-shadow: 50px 130px 100px rgba(0, 0, 0, 0.145947);
-}
-
-.call-text {
-  max-width: 822px;
-  font-weight: 700;
-  font-size: 60px;
-  line-height: 1.23;
-  color: #4D533C;
-  margin-bottom: 50px;
-}
-
-.call-link {
-  font-size: 16px;
-  line-height: 1.12;
-  text-decoration-line: underline;
-  color: #D4D6D4;
-
-}
-
-.call-link:hover,
-.call-link:focus {
-  color: #FFD723;
-}
-
-/* ------------------ Section deation... end ------------------- */
