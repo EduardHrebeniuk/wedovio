@@ -61,9 +61,10 @@ img {
 }
 
 
-/* SECTION-PROJECT */
+/* -------------------SECTION-PROJECT------------------------- */
 .project-section {
   font-family: 'Poppins', sans-serif;
+      padding-bottom: 150px;
 }
 
 .project-container-line {
@@ -224,19 +225,22 @@ color: var(--project-secondary-text-color);
 
 /* --------------------Section Deation...start---------------- */
 
+.deation{
 
+}
 .deation-container {
   position: relative;
   padding-bottom: 322px;
+  border-top: 1px solid rgba(33, 56, 66, 0.0955529); ;
 }
 
-.deation-line {
+/* .deation-line {
   width: 1110px;
   height: 1px;
   background: rgba(33, 56, 66, 0.0955529);
   margin: 0 auto;
   margin-bottom: 149px;
-}
+} */
 
 .deation-title {
   max-width: 607px;
@@ -247,6 +251,7 @@ color: var(--project-secondary-text-color);
   line-height: 1.28;
 
   color: #4D533C;
+  margin-top: 150px;
   margin-bottom: 87px;
 }
 
