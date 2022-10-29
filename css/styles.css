@@ -1,3 +1,13 @@
+:root {
+  --project-top-border-color: rgba(33, 56, 66, .1);
+  --project-secondary-text-color: #4d533c;
+  --project-main-text-color: rgba(33, 56, 66, .6);
+  --project-main-bgc: #ffffff;
+  --project-shadow-caption: 50px 50px 100px rgba(0, 0, 0, 0.15);
+  --project-text-alternative-color-1: #152934;
+  --project-text-alternative-color-2: #d4d6d4;
+}
+
 *,
 *::before,
 *::after {
@@ -50,6 +60,164 @@ img {
   /* outline: 2px solid red; */
 }
 
+
+/* SECTION-PROJECT */
+.project-section {
+  font-family: 'Poppins', sans-serif;
+}
+
+.project-container-line {
+  padding-top: 150px;
+
+  border-top: 1px solid var(--project-top-border-color);
+}
+.project-top-wrapper {
+  display: flex;
+  gap: 133px;
+
+  margin-bottom: 110px;
+}
+
+.project-title {
+  font-size: 36px;
+  color: var(--project-secondary-text-color);
+}
+
+.project-text {
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  color: var(--project-main-text-color);
+}
+
+.project-top-title {
+  flex: 0 0 325px;
+
+  line-height: calc(54 / 36);
+}
+
+.project-top-text {
+  align-self: center;
+  flex-basis: 518px;
+}
+
+.project-item + .project-item{
+  margin-top: 140px;
+}
+
+.project-item {
+  display: flex;
+}
+
+.project-image-wrapper {
+  position: relative;
+
+  flex: 0 0 735px;
+}
+
+.project-item-image-caption {
+  position: absolute;
+  bottom: -40px;
+
+  width: 453px;
+  padding-top: 30px;
+  padding-right: 33px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+
+  background-color: var(--project-main-bgc);
+  box-shadow: var(--project-shadow-caption);
+  border-radius: 8px;
+}
+
+.project-item-image-caption > .project-image-caption-text {
+  margin-bottom: 24px;
+
+  font-style: italic;
+  color: var(--project-secondary-text-color);
+}
+
+.project-caption-bottom-wrapper {
+  display: flex;
+  gap: 14px;
+}
+
+.project-caption-bottom-avatar {
+  border-radius: 50%;
+  align-self: center;
+}
+
+.project-name-position-wrapper {
+  align-self: center;
+}
+
+.project-caption-bottom-name {
+font-weight: 700;
+font-size: 16px;
+line-height: calc(24 / 16);
+color: var(--project-secondary-text-color);
+}
+
+.project-caption-bottom-position {
+  margin-top: 4px;
+
+  font-size: 14px;
+  line-height: calc(21 / 14);
+  color: var(--project-text-alternative-color-1);
+}
+
+.project-text-wrapper {
+  position: relative;
+
+  padding-top: 80px;
+}
+
+.project-item-title {
+  margin-bottom: 24px;
+
+  line-height: calc(48 / 36);
+}
+
+.project-text-wrapper > .project-text + .project-text {
+  margin-top: 26px;
+}
+
+.project-text-wrapper-link {
+  display: block;
+  margin-top: 90px;
+
+  font-size: 16px;
+  line-height: calc(18 / 16);
+  color: var(--project-text-alternative-color-2);
+}
+
+/* .project-text-wrapper-link::before {
+  content: "\23F5 	
+\1F892";
+} */
+
+.project-item:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.project-item:nth-child(2n) > .project-image-wrapper {
+  right: -165px;
+}
+
+.project-item:nth-child(2n + 1) > .project-image-wrapper {
+  left: -165px;
+}
+
+.project-item:nth-child(2n + 1) > .project-text-wrapper {
+  left: -70px;
+}
+
+.project-item:nth-child(2n) .project-item-image-caption{
+  left: -40px;
+}
+
+.project-item:nth-child(2n + 1) .project-item-image-caption {
+  right: -40px;
+}
 
 
 /* --------------------Section Deation...start---------------- */
