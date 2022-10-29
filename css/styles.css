@@ -189,7 +189,9 @@ color: var(--project-secondary-text-color);
   line-height: calc(18 / 16);
   color: var(--project-text-alternative-color-2);
 }
-
+.project-text-wrapper-link:hover, .project-text-wrapper-link:focus{
+  color: #FFD723;
+}
 /* .project-text-wrapper-link::before {
   content: "\23F5 	
 \1F892";
