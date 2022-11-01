@@ -63,6 +63,10 @@ img {
 
 /* -----------------------HERO------------------------------- */
 
+.nav{
+  padding-top: 35px;
+  justify-content: center;
+}
 .hero{
   margin: 0 auto;
   background-image: url(../img/hero-bg.jpg);
@@ -78,8 +82,10 @@ img {
 .hero-description{
   font-family: 'Poppins', sans-serif;
   text-align: left;
-  margin-left: 0;
-  padding-left: 0%;
+  max-width: 616px;
+  max-height: 412px;
+  /* margin-left: 0;
+  padding-left: 0; */
 }
 
 /* -------------------SECTION-PROJECT------------------------- */
