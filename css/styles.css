@@ -6,6 +6,7 @@
   --project-shadow-caption: 50px 50px 100px rgba(0, 0, 0, 0.15);
   --project-text-alternative-color-1: #152934;
   --project-text-alternative-color-2: #d4d6d4;
+  --project-hero-bg-color: #f2f2f2;
 }
 
 *,
@@ -57,9 +58,29 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  /* outline: 2px solid red; */
+  outline: 2px solid red;
 }
 
+/* -----------------------HERO------------------------------- */
+
+.hero{
+  margin: 0 auto;
+  background-image: url(../img/hero-bg.jpg);
+  max-width: 1440px;
+  height: 811px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--project-hero-bg-color);
+  
+}
+
+.hero-description{
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  margin-left: 0;
+  padding-left: 0%;
+}
 
 /* -------------------SECTION-PROJECT------------------------- */
 .project-section {
